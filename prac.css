@@ -1,0 +1,52 @@
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#calculator {
+  background-color: black;
+  border-radius: 30px;
+  height: 600px;
+  width: 350px;
+}
+#output {
+  border: 2px solid white;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 5px;
+}
+button {
+  width: 23%;
+  height: 80px;
+  border-radius: 20%;
+}
+#btn1 {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+#btn0 {
+  width: 46%;
+}
+
+p {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+#sum {
+  padding-left: 12px;
+}
+
+#ans {
+  padding: 17px 119px 36px 288px;
+}
